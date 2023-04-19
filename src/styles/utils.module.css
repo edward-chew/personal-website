@@ -1,0 +1,9 @@
+/* Set gutter to 4.0rem */
+.gutter40-row {  /* Apply to Bootstrap row */
+  margin-left: -2rem;
+  margin-right: -2rem;
+}
+.gutter40-col {  /* Apply to Bootstrap col */
+  padding-left: 2rem;
+  padding-right: 2rem;
+}

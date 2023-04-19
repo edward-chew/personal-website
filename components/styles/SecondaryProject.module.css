@@ -1,0 +1,31 @@
+.other-work {
+  margin-top: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.other-work .thumbnail {
+  width: 100%;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+.other-work:hover .thumbnail.enabled { 
+  transform: translate(-10px, -10px);
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.25));
+}
+.other-work h4 {
+  margin-top: 2rem;
+}
+.other-work h3 {
+  margin: 0.5rem 0;
+}
+.other-work .external-link {
+  display: inline;
+  height: 0.8rem;
+  margin-left: 0.4rem;
+  margin-bottom: 0.1rem;
+}
+.other-work .description {
+  margin: 0;
+  color: var(--black) !important;
+  line-height: 1.6;
+}

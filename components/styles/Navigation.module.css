@@ -1,0 +1,28 @@
+.nav {
+  padding: 4% 5%;
+  width: 100%;
+  z-index: 1;
+}
+.nav a {
+  font-size: calc(1.5rem * var(--text-mult));
+  transition: all 0.5s;
+}
+.nav a:hover {
+  text-decoration: none;
+  color: var(--black);
+  opacity: 0.6;
+}
+.nav-right a:hover {
+  font-size: 20px;
+}
+.nav-left {
+  float: left
+}
+.nav-right {
+  float: right;
+}
+.nav-right a {
+  margin-left: 50px;
+  font-size: 1.125rem;
+  font-weight: 600;
+}

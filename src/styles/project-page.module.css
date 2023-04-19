@@ -1,0 +1,63 @@
+/*
+  Images
+*/
+.project-page img {
+  width: 100%;
+}
+
+/*
+  Global
+*/
+.project-page a:hover {
+  opacity: 0.6;
+  color: var(--black);
+  transition: all 0.5s;
+  /* text-decoration: none; */
+}
+
+/*
+  Intro
+*/
+.project-page .title {
+  margin-top: 11rem;
+}
+.project-page .title .logo {
+  width: 4.5rem;
+}
+.project-page .title h1 {
+  margin-top: 2rem;
+}
+.project-page .title h5 {
+  margin-top: 0.5rem;
+  color: var(--gray);
+}
+
+/*
+  Body Sections
+*/
+.project-page h2 {
+  margin-top: 4rem;
+}
+.project-page section p {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+.project-page section > ul {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.project-page section img {
+  margin-top: 2rem;
+}
+.project-page .caption {
+  margin-top: 1rem;
+}
+/* Slightly larger margin if p is after an image */
+.project-page section img + p {
+  margin-top: 2rem;
+}
+.project-page a {
+  text-decoration: underline;
+}
+
+
