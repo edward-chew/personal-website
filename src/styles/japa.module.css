@@ -1,0 +1,156 @@
+/*
+  Global
+*/
+.japa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*
+  Typography
+*/
+.japa .styles h1 {
+  margin-bottom: 0;
+}
+.japa h2 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-weight: var(--demi);
+}
+.large-caption {
+  margin-top: 1.5rem;
+  font-weight: var(--regular);
+}
+.japa .subtitle {
+  margin-bottom: 2rem;
+  font-weight: var(--regular) !important;
+  text-align: center;
+}
+
+/*
+  Containers
+*/
+.narrow-text-container {
+  max-width: 720px;
+  margin: 6rem 0;
+}
+
+/*
+  Images
+*/
+.japa section img {
+  width: 100%;
+  margin-top: 0;
+}
+.japa .bg-img {
+  width: 150%;
+  max-height: 800px;
+  margin: 10rem 0;
+  object-fit: cover;
+  filter: none;
+}
+
+/*
+  Headings
+*/
+.heading-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.heading-container h1 {
+  flex: 0 1;
+  white-space: nowrap;
+  padding-right: 2rem;
+}
+.heading-container .orange-line {
+  width: 100%;
+  border-top: 4px solid #F5A623;
+}
+
+
+/*
+  Title
+*/
+.japa .title {
+  width: 100%;
+}
+.logo {
+  width: 3.5rem !important;
+}
+
+/*
+  Intro
+*/
+.japa .intro h2 {
+  margin-top: 4rem;
+}
+
+/*
+  Research, Ideation
+*/
+.research-ideation, .design-prototype, .final-prototype, .takeaways, .center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*
+  Design, Prototyping
+*/
+.icon-container {
+  width: 58rem;
+  /* max-height: 20rem; */
+}
+.icon-container .left {
+  border-right: solid 1px var(--gray);
+}
+.icon-container .subtitle, .iter1 .subtitle, .iter2 .subtitle, .iter3 .subtitle {
+  text-align: left;
+}
+.inner-icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-container img {
+  height: 100%;
+  width: auto !important;
+}
+.wide-section {
+  margin-top: 10rem;
+}
+.iter1 img {
+  width: 80% !important;
+}
+.iter2 img {
+  width: 90% !important;
+}
+.iter2 img:first-child {
+  margin-bottom: 1.5rem;
+}
+.iter3 {
+  margin-top: 5rem;
+}
+.iter3 img {
+  width: 100% !important;
+  margin-left: 3rem;
+}
+
+/*
+  Final Prototypes
+*/
+.final-prototype img {
+  filter: none;
+}
+
+/*
+  Takeaways
+*/
+.japa .takeaways h2 {
+  margin-top: 4rem;
+}
+.japa .takeaways .narrow-text-container {
+  margin: 3rem 0;
+}

@@ -114,7 +114,7 @@ export default function Home() {
             skills="FRONTEND & UI/UX DESIGN"
             title="A Hub for Involvement"
             subtitle="Wireframed and styled a web platform for event sharing between university communities using React and Figma"
-            link="/old-komma"
+            link="/komma-involvement"
           />
         </div>
       </section>

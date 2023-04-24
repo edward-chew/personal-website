@@ -7,3 +7,13 @@
   padding-left: 2rem;
   padding-right: 2rem;
 }
+
+/* Set gutter to 2.5rem */
+.gutter25-row {  /* Apply to Bootstrap row */
+  margin-left: -1.25rem;
+  margin-right: -1.25rem;
+}
+.gutter25-col {  /* Apply to Bootstrap col */
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}

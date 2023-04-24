@@ -74,7 +74,7 @@ export default function KommaMeetings() {
         </div>
       </section>
 
-      <section className={styles["video"]}>
+      <section className={projStyles["video"]}>
         <h2 className="demi">The Video</h2>
         <p className="small-body">
           We put together this explainer video that discusses our product and its features. I had virtually no previous experience with video editing, but I spent about a week learning to use Premiere Pro to edit this.

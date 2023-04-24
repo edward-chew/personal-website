@@ -1,0 +1,29 @@
+/*
+  Intro
+*/
+.logo {
+  width: 3rem !important;
+}
+
+/*
+  Logo
+*/
+.codelab-brand .logo-row {
+  margin: 4rem 0;
+}
+.codelab-brand .full-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.codelab-brand .full-logo img {
+  width: 70%;
+}
+.codelab-brand .icon-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.codelab-brand .icon-logo img {
+  width: 20%;
+}

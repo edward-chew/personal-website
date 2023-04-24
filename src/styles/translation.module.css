@@ -1,0 +1,19 @@
+/*
+  How We Did It
+*/
+.translation .how img {
+  padding: 0 2rem;
+}
+.translation .no-bullet {
+  list-style-type: none;
+}
+
+/*
+  What We Found
+*/
+.translation .found .fig12 {
+  padding: 0 12rem;
+}
+.translation .found .fig3 {
+  padding: 0 6rem;
+}

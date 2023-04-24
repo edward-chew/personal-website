@@ -20,8 +20,13 @@ body {
   --lightgray: #F1F1F1;
   --white: #FFFFFF;
   --red: #FF4848;
-  --shadow: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.12));
+  --shadow: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.25));
+  --light-shadow: drop-shadow(1px 1px 7px rgba(0, 0, 0, 0.1));
   --text-mult: 1;
+  --regular: 400;
+  --medium: 500;
+  --demi: 600;
+  --bold: 700;
 }
 .content-wrapper {
   width: 1140px;
@@ -52,8 +57,9 @@ img {
   Typography
 */
 a, h1, h2, h3, h4, h5, p {
-  font-weight: 500;
+  font-weight: var(--medium);
   color: var(--black);
+  width: 100%;
 }
 h1, h2, h3, h4, h5 {
   line-height: 1.2;
@@ -64,7 +70,7 @@ a {
 }
 h1 {  /* 54 */
   font-size: calc(3.375rem * var(--text-mult));
-  font-weight: 600;
+  font-weight: var(--demi);
 }
 h2 {  /* 32 */
   font-size: calc(2rem * var(--text-mult));
@@ -86,22 +92,22 @@ p {   /* 24 */
 }
 .small-body {  /* 22 */
   font-size: calc(1.375rem * var(--text-mult));
-  font-weight: 400;
+  font-weight: var(--regular);
 }
 ol, ul {
   padding-left: 4rem;
 }
 .bold {
-  font-weight: 700 !important;
+  font-weight: var(--bold) !important;
 }
 .demi {
-  font-weight: 600 !important;
+  font-weight: var(--demi) !important;
 }
 .medium {
-  font-weight: 500 !important;
+  font-weight: var(--medium) !important;
 }
 .regular {
-  font-weight: 400 !important;
+  font-weight: var(--regular) !important;
 }
 .italic {
   font-style: italic !important;
@@ -112,6 +118,9 @@ ol, ul {
 */
 .shadow {
   filter: var(--shadow);
+}
+.no-shadow {
+  filter: none !important;
 }
 
 /*

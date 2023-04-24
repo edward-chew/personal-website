@@ -1,0 +1,129 @@
+/*
+  Global
+*/
+.about a {
+  font-size: 1.5rem;
+}
+
+/*
+  Summary
+*/
+.summary {
+  position: relative;
+  margin-top: 6rem;
+}
+.summary .left img {
+  width: 100%;
+  border-radius: 20px;
+  filter: var(--shadow);
+}
+.summary .right {
+  padding-left: 4rem;
+}
+.summary h1 {
+  margin-top: 4rem;
+}
+.summary p {
+  margin: 1.5rem 0;
+}
+
+/*
+  Snapshots
+*/
+.snapshots {
+  margin-top: 19rem;
+}
+.snapshots h1 {
+  margin-bottom: 3rem;
+}
+.snapshots .full-grid > div {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.snapshots img {
+  width: 100%;
+  border-radius: 20px;
+}
+.snapshots .highlight {
+  filter: var(--shadow);
+}
+.snapshots .highlight-text {
+  display: flex;
+  align-items: center;
+}
+.snapshots .front-rectangle {
+  position: absolute;
+  z-index: -1;
+  width: 120%;
+  height: 86%;
+  right: 7%;
+  border: var(--red) solid 3px;
+  border-radius: 20px;
+  background: linear-gradient(236.03deg, #FFB7A7 15.77%, #FFECBC 80.92%);
+}
+.snapshots .back-rectangle {
+  position: absolute;
+  z-index: -2;
+  width: 120%;
+  height: 86%;
+  right: 3%;
+  bottom: 3%;
+  border: var(--red) solid 3px;
+  border-radius: 20px;
+}
+
+/*
+  Experience
+*/
+.experience {
+  margin-top: 12rem;
+}
+.experience h1 {
+  margin-bottom: 3rem;
+}
+.experience .years {
+  color: var(--gray);
+  font-style: italic;
+  margin-top: 0.25rem;
+  margin-bottom: 2rem;
+}
+
+/*
+  Footer
+*/
+.about footer {
+  margin-top: 18rem;
+  margin-bottom: 12rem;
+}
+.about footer h1 {
+  margin-bottom: 3rem;
+}
+.about footer a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+/*
+  Background Details
+*/
+.rellax {
+  position: absolute;
+  z-index: -5;
+  width: 100vw;
+  left: 0;
+}
+.rellax img {
+  width: 100%;
+}
+.lines1 {
+  top: 1000px;
+}
+.lines2 {
+  top: 2600px;
+}
+@media (max-width: 720px) {
+  .rellax {
+    display: none;
+  }
+}
