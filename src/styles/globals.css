@@ -59,8 +59,11 @@ img {
 a, h1, h2, h3, h4, h5, p {
   font-weight: var(--medium);
   color: var(--black);
+}
+h1, h2, h3, h4, h5, p {
   width: 100%;
 }
+
 h1, h2, h3, h4, h5 {
   line-height: 1.2;
 }

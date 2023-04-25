@@ -62,6 +62,8 @@ export default function KommaInvolvement() {
         <div className="row justify-content-center">
           <div className="col-md-4"><img src={Dashboard1.src} alt="Dashboard page"/></div>
           <div className="col-md-4"><img src={Dashboard2.src} alt="Dashboard page"/></div>
+        </div>
+        <div className="row justify-content-center">
           <div className="col-md-4"><img src={Dashboard3.src} alt="Dashboard page"/></div>
           <div className="col-md-4"><img src={Dashboard4.src} alt="Dashboard page"/></div>
         </div>
