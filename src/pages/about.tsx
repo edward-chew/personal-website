@@ -24,18 +24,18 @@ import utils from '../styles/utils.module.css'
 export default function About() {
   const rellaxRef = useRef(null);
 
-  useEffect(() => {
-    if (rellaxRef.current) {
-      new Rellax(".rellax", {
-        speed: -3, // the speed of the parallax effect
-        center: false, // whether or not to center the parallax effect
-        wrapper: null, // the element that contains the parallax element
-        round: true, // whether or not to round pixel values
-        vertical: true, // whether or not to enable vertical scrolling
-        horizontal: false // whether or not to enable horizontal scrolling
-      });
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (rellaxRef.current) {
+  //     new Rellax("rellax", {
+  //       speed: -3, // the speed of the parallax effect
+  //       center: false, // whether or not to center the parallax effect
+  //       wrapper: undefined, // the element that contains the parallax element
+  //       round: true, // whether or not to round pixel values
+  //       vertical: true, // whether or not to enable vertical scrolling
+  //       horizontal: false // whether or not to enable horizontal scrolling
+  //     });
+  //   }
+  // }, []);
 
   return (
     <>

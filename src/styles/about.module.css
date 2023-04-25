@@ -110,8 +110,11 @@
 .rellax {
   position: absolute;
   z-index: -5;
+  min-width: 1800px;
   width: 100vw;
+  max-width: 2500px;
   left: 0;
+  object-fit: cover;
 }
 .rellax img {
   width: 100%;
@@ -120,7 +123,7 @@
   top: 1000px;
 }
 .lines2 {
-  top: 2600px;
+  top: 3000px;
 }
 @media (max-width: 720px) {
   .rellax {
