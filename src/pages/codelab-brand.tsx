@@ -1,4 +1,5 @@
 import type { ReactElement } from 'react'
+import Link from 'next/link'
 
 import ProjectPageLayout from '../../components/layouts/ProjectPageLayout'
 
@@ -38,7 +39,7 @@ export default function CodeLabBrand() {
           As a new organization, branding was a blank slate. It became a fun challenge to apply my creativity while still maintaining a professional image.
         </p>
         <p className="small-body">
-          To learn more about the organization, view my <a className="small-body" href="/codelab-community">CodeLab Community page</a>.
+          To learn more about the organization, view my <Link className="small-body" href="/codelab-community">CodeLab Community page</Link>.
         </p>
       </section>
 
@@ -62,7 +63,7 @@ export default function CodeLabBrand() {
           In Fall 2021, I led and mentored a student team to develop the site in React. In addition to teaching the students frontend development, I planned and delegated tasks over a rapid 6 weeks of agile development. It was incredible seeing my team grow their development and communication skills throughout the quarter, and I am so proud to see what they were able to create.
         </p>
         <p className="small-body">
-          The website is currently live at <a className="small-body" href="https://codelabdavis.com/" target="blank_">codelabdavis.com</a>.
+          The website is currently live at <Link className="small-body" href="https://codelabdavis.com/" target="blank_">codelabdavis.com</Link>.
         </p>
       </section>
 

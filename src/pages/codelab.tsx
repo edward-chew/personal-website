@@ -1,4 +1,5 @@
 import type { ReactElement } from 'react'
+import Link from 'next/link'
 
 import ProjectPageLayout from '../../components/layouts/ProjectPageLayout'
 
@@ -60,7 +61,7 @@ export default function CodeLab() {
           <h2 className="demi">Where We Are Now</h2>
           <p className="small-body">
             Today, after three short years, we have grown to so much more. CodeLab became a software development and UX design organization, offering an opportunity for members to work on cross-functional teams. Our advanced teams work with real-world tech company clients, giving members a taste of industry work. And most important of all, we’ve built community. Between developing amazing projects, learning new skills through our curriculum, and growing professionally and socially at events, we’ve created a much greater sense of connectedness in the UC Davis tech community.
-            <br/><br/>As of Spring 2023, CodeLab has built 32 projects, worked with 15 industry clients, and had 180 members and alumni across our 6 project terms. Learn more about the organization on our <a className="small-body" href="https://codelabdavis.com/" target="blank_">website</a>. (Our website was also a project I designed and led the development team on!)
+            <br/><br/>As of Spring 2023, CodeLab has built 32 projects, worked with 15 industry clients, and had 180 members and alumni across our 6 project terms. Learn more about the organization on our <Link className="small-body" href="https://codelabdavis.com/" target="blank_">website</Link>. (Our website was also a project I designed and led the development team on!)
             <br/><br/>Being a part of CodeLab had an immense impact on my college experience and career journey. It’s impossible to share everything about my three years in CodeLab, but I’d like to highlight a few key initiatives, accomplishments, and experiences I had.
           </p>
         </div>
@@ -119,7 +120,7 @@ export default function CodeLab() {
           <h2 className="demi">Developing an In-House Curriculum</h2>
           <p className="small-body">
             I never really saw educating students as CodeLab’s function. Instead, I see it as an organization that facilitates learning. Subtle, sure, but the board is composed of undergraduate students too. We aren’t experts in any technical domain, but we want to make it easy for associates to learn new things on their own.
-            <br/><br/>That said, our education team over the years has gone above and beyond, creating a set of in-house technical articles, video tutorials, and quizzes. In their first week of the project term, associates go through our technical bootcamp in either software development or UX design. The articles and videos are rounded off by a bootcamp project, tying in all the concepts they learn. A handful of our bootcamp videos are available publicly on our <a className="small-body" href="https://www.youtube.com/channel/UCAMYCupe0W1ICln7CzYU1Zg" target="blank_">YouTube channel</a>.
+            <br/><br/>That said, our education team over the years has gone above and beyond, creating a set of in-house technical articles, video tutorials, and quizzes. In their first week of the project term, associates go through our technical bootcamp in either software development or UX design. The articles and videos are rounded off by a bootcamp project, tying in all the concepts they learn. A handful of our bootcamp videos are available publicly on our <Link className="small-body" href="https://www.youtube.com/channel/UCAMYCupe0W1ICln7CzYU1Zg" target="blank_">YouTube channel</Link>.
             <br/><br/>Over time, the education team hopes to expand the curriculum to more technical topics and find more innovative ways of teaching. (In fact, we have an internal learning tool currently in development.)
         </p>
         </div>

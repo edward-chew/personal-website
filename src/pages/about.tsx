@@ -1,8 +1,7 @@
-import { useRef, useEffect } from 'react';
+import { useRef, useEffect } from 'react'
+import Link from 'next/link'
 
-import Link from 'next/link';
-
-import Rellax from 'rellax';
+import Rellax from 'rellax'
 
 import Arrow from '@/../public/images/Arrow.svg'
 import Curve4 from '@/../public/images/About/Curve4.svg'
@@ -110,7 +109,7 @@ export default function About() {
           <p className={styles["years"]}>Jan 2021 - May 2021</p>
           <p className={styles["position"]}><b className="demi">Design Interactive</b> / Design Associate</p>
           <p className={styles["years"]}>Apr 2020 - May 2020</p>
-          <a className="link" href="https://drive.google.com/file/d/1nTexryaBg258VKtiM36aMotkwGOm-t99/view?usp=sharing" target="_blank">View Full Resume<img className="arrow-link" src="Images/Arrow.svg" alt="arrow"/></a>
+          <Link className="link" href="https://drive.google.com/file/d/1nTexryaBg258VKtiM36aMotkwGOm-t99/view?usp=sharing" target="_blank">View Full Resume<img className="arrow-link" src="Images/Arrow.svg" alt="arrow"/></Link>
         </section>
 
         <footer>

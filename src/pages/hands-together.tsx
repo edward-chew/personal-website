@@ -1,4 +1,5 @@
 import type { ReactElement } from 'react'
+import Link from 'next/link'
 
 import ProjectPageLayout from '../../components/layouts/ProjectPageLayout'
 
@@ -25,8 +26,8 @@ export default function HandsTogether() {
             Hands Together is a Santa Ana-based nonprofit working to bring early childhood education accessible to all. Their team was seeking a website refresh, because their former website was visually dated and lacked certain calls to action. Over the course of 16 weeks, our team worked to build up numerous static pages, a shop with payments processed through Stripe, and an administrator dashboard allowing members of the organization to log in and list events and items for sale.
           </p>
           <p className="small-body">
-            View the completed site <a className="small-body" href="https://www.handstogether-sa.org/" target="blank_">here</a>.
-            <br/>View the full project write up <a className="small-body" href="https://codelabdavis.medium.com/hands-together-winter-spring-21-mentored-project-c1bb2098f4ce" target="blank_">here</a>.
+            View the completed site <Link className="small-body" href="https://www.handstogether-sa.org/" target="blank_">here</Link>.
+            <br/>View the full project write up <Link className="small-body" href="https://codelabdavis.medium.com/hands-together-winter-spring-21-mentored-project-c1bb2098f4ce" target="blank_">here</Link>.
           </p>
           <h2 className="demi">My Role</h2>
           <p className="small-body">

@@ -1,4 +1,5 @@
 import type { ReactElement } from 'react'
+import Link from 'next/link'
 
 import ProjectPageLayout from '../../components/layouts/ProjectPageLayout'
 
@@ -24,7 +25,7 @@ export default function Translation() {
         <div className="col-md-9">
           <h2 className="demi">A Major Research Project</h2>
           <p className="small-body">
-            As part of my work at the <a href="http://c2.ucdavis.edu/" target="_blank" className="small-body">Computational Communication Lab</a> at UC Davis (under <a className="small-body" href="https://enfascination.com/weblog/professional" target="blank_">Prof. Seth Frey</a>), I took part in a project evaluating the effectiveness of Google Translate. Up to this point, this is the largest research project I've worked on. It was fun thinking about the impact of work on the world, not just the nuances of building out a product. This project was accepted to the International Communication Association 2022 conference, and will later be published as <i>Demonstrating the Preservation of Semantic Content Across Multi-Language Dataset with Machine Translation for Use in English-Trained Tools</i>.
+            As part of my work at the <Link href="http://c2.ucdavis.edu/" target="_blank" className="small-body">Computational Communication Lab</Link> at UC Davis (under <Link className="small-body" href="https://enfascination.com/weblog/professional" target="blank_">Prof. Seth Frey</Link>), I took part in a project evaluating the effectiveness of Google Translate. Up to this point, this is the largest research project I've worked on. It was fun thinking about the impact of work on the world, not just the nuances of building out a product. This project was accepted to the International Communication Association 2022 conference, and will later be published as <i>Demonstrating the Preservation of Semantic Content Across Multi-Language Dataset with Machine Translation for Use in English-Trained Tools</i>.
           </p>
           <p className="small-body">
             Within the interdisciplinary team, I led the development work. The scripts were done in Python, and involved the application of ML/NLP tools and the use of Google's Translation API.
@@ -80,7 +81,7 @@ export default function Translation() {
           We then had two main computational tools:
         </p>
         <ul className="small-body">
-          <li><a className="demi" href="https://polyglot.readthedocs.io/en/latest/" target="_blank">Polyglot</a>, a sentiment analysis tool used to measure the meaning of a text</li>
+          <li><Link className="demi" href="https://polyglot.readthedocs.io/en/latest/" target="_blank">Polyglot</Link>, a sentiment analysis tool used to measure the meaning of a text</li>
           <li><span className="demi">Google Cloud Translation API</span> to translate texts back and forth</li>
         </ul>
 
