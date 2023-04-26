@@ -119,7 +119,7 @@ export default function About() {
           <p className={styles["years"]}>Jan 2021 - May 2021</p>
           <p className={styles["position"]}><b className="demi">Design Interactive</b> / Design Associate</p>
           <p className={styles["years"]}>Apr 2020 - May 2020</p>
-          <Link className="link" href="https://drive.google.com/file/d/1nTexryaBg258VKtiM36aMotkwGOm-t99/view?usp=sharing" target="_blank">View Full Resume<img className="arrow-link" src="Images/Arrow.svg" alt="arrow"/></Link>
+          <Link className="link" href="https://drive.google.com/file/d/1nTexryaBg258VKtiM36aMotkwGOm-t99/view?usp=sharing" target="_blank">View Full Resume<img className="arrow-link" src={Arrow} alt="arrow"/></Link>
         </section>
 
         <footer>

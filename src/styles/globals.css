@@ -149,6 +149,18 @@ ol, ul {
   margin-left: 10px;
 }
 
+/*
+  Mobile
+*/
+.mobile {
+  display: none;
+}
+@media (max-width: 768px) {
+  .mobile {
+    display: block;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
   }

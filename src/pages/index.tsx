@@ -45,6 +45,9 @@ export default function Home() {
             <div className={` ${styles["left"]} col-md-7 `}>
               <h1 className="bold">Hello there!</h1>
               <h2>I’m Edward, a fourth year computer science student at UC Davis.</h2>
+              <p className="mobile">
+                Hey, I see you're on a mobile device. The mobile version of this website is still under construction. You can still see most of the site content, but some formatting may be off. Stay tuned!
+              </p>
               <Link className="link" href="/about">
                 <span className={styles["link-text"]}>About Me</span>
                 <img className={`${styles["arrow-link"]} arrow-link`} src={ArrowWhite.src} alt="arrow"/>
