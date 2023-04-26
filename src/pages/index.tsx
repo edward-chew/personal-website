@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Head from 'next/head';
 
 import Layout from '../../components/layouts/MainLayout'
 import PrimaryProject from '@/../components/PrimaryProject'
@@ -16,7 +17,7 @@ import CodeLabBrand from '@/../public/images/Home/PrimaryProjects/CodeLabBrand.p
 // Secondary Projects
 import JAPA from '@/../public/images/Home/SecondaryProjects/JAPA.png'
 import Reddit from '@/../public/images/Home/SecondaryProjects/Reddit.png'
-import OldKomma from '@/../public/images/Home/SecondaryProjects/OldKomma.png'
+import KommaInvolvement from '@/../public/images/Home/SecondaryProjects/KommaInvolvement.png'
 // Mini Projects
 import BobaTierList from '@/../public/images/Home/MiniProjects/BobaTierList.png'
 import DesignChallenge from '@/../public/images/Home/MiniProjects/DesignChallenge.png'
@@ -29,6 +30,14 @@ import utils from '@/styles/utils.module.css'
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Edward Chew / Coding and Designing</title>
+
+        <meta property="og:title" content="Edward Chew / Coding and Designing" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://edwardchew.vercel.app/" />
+        <meta property="og:image" content="https://edwardchew.vercel.app/images/Home/Edward.jpg" />
+      </Head>
 
       <section className={styles["intro"]}>
         <div className={styles["gradient-box"]}>
@@ -110,7 +119,7 @@ export default function Home() {
             link="/reddit"
           />
           <SecondaryProject
-            image={OldKomma}
+            image={KommaInvolvement}
             skills="FRONTEND & UI/UX DESIGN"
             title="A Hub for Involvement"
             subtitle="Wireframed and styled a web platform for event sharing between university communities using React and Figma"

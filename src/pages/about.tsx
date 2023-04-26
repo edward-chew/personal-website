@@ -1,5 +1,6 @@
 import { useRef, useEffect } from 'react'
 import Link from 'next/link'
+import Head from 'next/head'
 
 import Rellax from 'rellax'
 
@@ -39,6 +40,15 @@ export default function About() {
 
   return (
     <>
+      <Head>
+        <title>About / Edward Chew</title>
+
+        <meta property="og:title" content="About / Edward Chew"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://edwardchew.vercel.app/about"/>
+        <meta property="og:image" content="https://edwardchew.vercel.app/images/About/Edward.jpg"/>
+      </Head>
+
       <div className={` ${styles["rellax"]} rellax ${styles["lines1"]} `} ref={rellaxRef}><img src={Curve4.src} alt="Background Curve"/></div>
       <div className={` ${styles["rellax"]} rellax ${styles["lines2"]} `} ref={rellaxRef}><img src={Curve5.src} alt="Background Curve"/></div>
 

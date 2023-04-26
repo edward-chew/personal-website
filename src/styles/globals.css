@@ -11,7 +11,7 @@ body {
   font-size: 100%;
   outline: 0;
   vertical-align: baseline;
-  font-family: 'Avenir Next', 'Proxima Nova', 'Avenir', sans-serif !important;
+  font-family: 'Avenir Next', 'Avenir', 'Proxima Nova', 'Inter', sans-serif !important;
 }
 :root {
   --black: #1a1a1a;
@@ -156,6 +156,5 @@ ol, ul {
 
 @media (prefers-color-scheme: dark) {
   html {
-    color-scheme: dark;
   }
 }
