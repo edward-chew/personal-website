@@ -61,13 +61,13 @@ export default function About() {
             <div className={` ${styles["right"]} col-md-7 `}>
               <h1>I’m Edward.</h1>
               <p>
-                I’m currently a fourth year computer science major and technology management minor at UC Davis. Through side projects, coursework, and involvements, I’ve explored domains well beyond coding. I really enjoy UX design and business/entrepreneurship, as it’s helped me understand a software product end-to-end. For now, I’m especially interested in pursuing front-end development, as it blends my coding and design interests. As I start my career, I hope to get involved with an even greater variety of fields in and out of computer science.
+                I'm a recent computer science grad from UC Davis, and am currently based in the SF Bay Area. Through side projects, coursework, and involvements, I’ve explored domains well beyond coding. I really enjoy UX design and business/entrepreneurship, as it’s helped me understand a software product end-to-end. For now, I’m especially interested in pursuing front-end development, as it blends my coding and design interests. As I start my career, I hope to get involved with an even greater variety of fields in and out of computer science.
               </p>
               <p>
-                When I’m not coding, I love exploring new places. Since the beginning of the pandemic, I’ve biked hundreds (if not thousands) of miles around Davis and the Bay Area. In other cases, I explore on foot, seeing what hill offers the best view in San Francisco. I express my creativity on physical mediums as well. In my apartment, you’ll find sticky notes and posters on the wall adorned with Sharpie doodles.
+                When I’m not coding, I love exploring new places. Since the beginning of the pandemic, I’ve biked hundreds (if not thousands) of miles around Davis and the Bay Area. Other times, I explore on foot, seeing what hill offers the best view in San Francisco. I express my creativity on physical mediums as well. In my apartment, you’ll find sticky notes and posters on the walls adorned with Sharpie doodles.
               </p>
               <p>
-                Currently, I lead a software development and UX design organization on campus, CodeLab. I’m also seeking full-time software engineering roles for post-grad. I’m excited to see where my next role will take me!
+                I’m currently seeking full-time software engineering roles. I’m excited to see where my next opportunity will take me!
               </p>
               <Link className="link" href="https://drive.google.com/file/d/1nTexryaBg258VKtiM36aMotkwGOm-t99/view?usp=sharing" target="_blank">
                 <span>View Resume</span>
@@ -106,9 +106,9 @@ export default function About() {
         <section className={styles["experience"]}>
           <h1>Experience and involvement:</h1>
           <p className={styles["position"]}><b className="demi">CodeLab</b> / Co-Founder, President</p>
-          <p className={styles["years"]}>Oct 2020 - Present</p>
+          <p className={styles["years"]}>Oct 2020 - Jun 2023</p>
           <p className={styles["position"]}><b className="demi">Computational Communication Lab at UC Davis</b> / Research Assistant</p>
-          <p className={styles["years"]}>Mar 2020 - Present</p>
+          <p className={styles["years"]}>Mar 2020 - Jan 2023</p>
           <p className={styles["position"]}><b className="demi">IBM</b> / Software Engineering Intern</p>
           <p className={styles["years"]}>Jun 2022 - Sep 2022</p>
           <p className={styles["position"]}><b className="demi">UC Davis</b> / Student Web Developer</p>
@@ -119,7 +119,7 @@ export default function About() {
           <p className={styles["years"]}>Jan 2021 - May 2021</p>
           <p className={styles["position"]}><b className="demi">Design Interactive</b> / Design Associate</p>
           <p className={styles["years"]}>Apr 2020 - May 2020</p>
-          <Link className="link" href="https://drive.google.com/file/d/1nTexryaBg258VKtiM36aMotkwGOm-t99/view?usp=sharing" target="_blank">View Full Resume<img className="arrow-link" src={Arrow} alt="arrow"/></Link>
+          <Link className="link" href="https://drive.google.com/file/d/1nTexryaBg258VKtiM36aMotkwGOm-t99/view?usp=sharing" target="_blank">View Full Resume<img className="arrow-link" src={Arrow.src} alt="arrow"/></Link>
         </section>
 
         <footer>

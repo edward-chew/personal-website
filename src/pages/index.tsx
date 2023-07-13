@@ -44,7 +44,7 @@ export default function Home() {
           <div className="row align-items-center">
             <div className={` ${styles["left"]} col-md-7 `}>
               <h1 className="bold">Hello there!</h1>
-              <h2>I’m Edward, a fourth year computer science student at UC Davis.</h2>
+              <h2>I’m Edward, a recent UC Davis grad based in the San Francisco Bay Area.</h2>
               <p className="mobile">
                 Hey, I see you're on a mobile device. The mobile version of this website is still under construction. You can still see most of the site content, but some formatting may be off. Stay tuned!
               </p>
@@ -165,9 +165,9 @@ export default function Home() {
       <section className={styles["experience"]}>
         <h1>My experience:</h1>
         <p className={styles["position"]}><b className="demi">CodeLab</b> / Co-Founder, President</p>
-        <p className={styles["years"]}>Oct 2020 - Present</p>
+        <p className={styles["years"]}>Oct 2020 - Jun 2023</p>
         <p className={styles["position"]}><b className="demi">Computational Communication Lab at UC Davis</b> / Research Assistant</p>
-        <p className={styles["years"]}>Mar 2020 - Present</p>
+        <p className={styles["years"]}>Mar 2020 - Jan 2023</p>
         <p className={styles["position"]}><b className="demi">IBM</b> / Software Engineering Intern</p>
         <p className={styles["years"]}>Jun 2022 - Sep 2022</p>
         <p className={styles["position"]}><b className="demi">UC Davis</b> / Student Web Developer</p>
