@@ -18,6 +18,18 @@ import Flyer9 from '@/../public/images/CodeLabBrand/Flyer9.jpg'
 import Flyer10 from '@/../public/images/CodeLabBrand/Flyer10.jpg'
 import Flyer11 from '@/../public/images/CodeLabBrand/Flyer11.jpg'
 import Flyer12 from '@/../public/images/CodeLabBrand/Flyer12.jpg'
+import Flyer13 from '@/../public/images/CodeLabBrand/Flyer13.jpg'
+import Flyer14 from '@/../public/images/CodeLabBrand/Flyer14.jpg'
+import Flyer15 from '@/../public/images/CodeLabBrand/Flyer15.jpg'
+import Flyer16 from '@/../public/images/CodeLabBrand/Flyer16.jpg'
+import Flyer17 from '@/../public/images/CodeLabBrand/Flyer17.jpg'
+import Flyer18 from '@/../public/images/CodeLabBrand/Flyer18.jpg'
+import Flyer19 from '@/../public/images/CodeLabBrand/Flyer19.jpg'
+import Flyer20 from '@/../public/images/CodeLabBrand/Flyer20.jpg'
+import Flyer21 from '@/../public/images/CodeLabBrand/Flyer21.jpg'
+import Flyer22 from '@/../public/images/CodeLabBrand/Flyer22.jpg'
+import Flyer23 from '@/../public/images/CodeLabBrand/Flyer23.jpg'
+import Flyer24 from '@/../public/images/CodeLabBrand/Flyer24.jpg'
 
 import projStyles from '../styles/project-page.module.css'
 import styles from '../styles/codelab-brand.module.css'
@@ -81,7 +93,7 @@ export default function CodeLabBrand() {
         <section className={styles["flyers"]}>
           <h2 className="demi">Flyers</h2>
           <p className="small-body">
-            Even after I moved out of the formal graphics roles on the board, I continued to get involved in design occasionally. Here are just a handful of the assets I created over the years. You’ll notice the recruitment flyers take a step away from the brand; I took more creative liberties with those.
+            Even after I moved out of the formal graphics roles on the board, I continued to get involved in design occasionally. Here are just a handful of the assets I created over the years. Most are for Instagram and are purposefully information-dense. You’ll notice the recruitment flyers take a step away from the brand; I took more creative liberties with those.
           </p>
           <div className="row justify-content-center">
             <div className="col-12"><img src={Flyer1.src} alt=""/></div>
@@ -90,6 +102,22 @@ export default function CodeLabBrand() {
             <div className="col-md-4"><img src={Flyer4.src} alt=""/></div>
             <div className="col-md-6"><img src={Flyer5.src} alt=""/></div>
             <div className="col-md-6"><img src={Flyer6.src} alt=""/></div>
+            <div className="col-md-3"><img src={Flyer13.src} alt=""/></div>
+            <div className="col-md-3"><img src={Flyer14.src} alt=""/></div>
+            <div className="col-md-3"><img src={Flyer15.src} alt=""/></div>
+            <div className="col-md-3"><img src={Flyer16.src} alt=""/></div>
+            <div className="col-md-4"><img src={Flyer17.src} alt=""/></div>
+            <div className="col-md-4"><img src={Flyer18.src} alt=""/></div>
+            <div className="col-md-4"><img src={Flyer19.src} alt=""/></div>
+          </div>
+          <div className="row justify-content-center">
+            <div className="col"><img src={Flyer20.src} alt=""/></div>
+            <div className="col"><img src={Flyer21.src} alt=""/></div>
+            <div className="col"><img src={Flyer22.src} alt=""/></div>
+            <div className="col"><img src={Flyer23.src} alt=""/></div>
+            <div className="col"><img src={Flyer24.src} alt=""/></div>
+          </div>
+          <div className="row justify-content-center">
             <div className="col-md-6"><img src={Flyer7.src} alt=""/></div>
             <div className="col-md-6"><img src={Flyer8.src} alt=""/></div>
             <div className="col-md-6">
