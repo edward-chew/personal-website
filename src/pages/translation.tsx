@@ -41,12 +41,16 @@ export default function Translation() {
             <p className="small-body">
               Within the interdisciplinary team, I led the development work. The scripts were done in Python, and involved the application of ML/NLP tools and the use of Google's Translation API.
             </p>
+            <h2 className="demi">Background</h2>
+            <p className="small-body">
+              Communications research is heavily English-focused, yet communications is inherently multilingual. English is far from the only language spoken in the world! In this project, we aim to demonstrate that there are existing machine translation tools that academics can apply to expand their research into other languages. To quantify the effectiveness of one of the most popular translation tools, Google Translate, we measure how the meaning of a text deteriorates as the text is translated back and forth between languages.
+            </p>
           </div>
           <div className="col-md-3">
             <h2 className="demi">Duration</h2>
             <p className="small-body">
               12 months
-              July 2021 - June 2022
+              <br/>July 2021 - June 2022
             </p>
             <h2 className="demi">Team Members</h2>
             <p className="small-body">
@@ -55,14 +59,18 @@ export default function Translation() {
               <br/>Jingying Huang
               <br/>Seth Frey
             </p>
+            <h2 className="demi">Tools</h2>
+            <p className="small-body">
+              Python
+              <br/>pandas
+              <br/>Polyglot
+              <br/>Google Translate API
+            </p>
           </div>
         </section>
 
         <section className={styles["background"]}>
-          <h2 className="demi">Background</h2>
-          <p className="small-body">
-            Communications research is heavily English-focused, yet communications is inherently multilingual. English is far from the only language spoken in the world! In this project, we aim to demonstrate that there are existing machine translation tools that academics can apply to expand their research into other languages. To quantify the effectiveness of one of the most popular translation tools, Google Translate, we measure how the meaning of a text deteriorates as the text is translated back and forth between languages.
-          </p>
+
         </section>
 
         <section className={styles["how"]}>

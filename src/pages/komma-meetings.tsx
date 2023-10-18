@@ -58,6 +58,12 @@ export default function KommaMeetings() {
               <br/>Omid Mogasemi
               <br/> Essam Sleiman
             </p>
+            <h2 className="demi">Tools</h2>
+            <p className="small-body">
+              React
+              <br/>Figma
+              <br/>Premiere Pro
+            </p>
           </div>
         </section>
 
@@ -74,7 +80,7 @@ export default function KommaMeetings() {
         <section className={styles["wireframes"]}>
           <h2 className="demi">The Wireframes</h2>
           <p className="small-body">
-            Here's the home page of the application and some gifs of the user flow. These are just the prototypes, since the coded platform is not yet complete.
+            Here's the home page of the application and some gifs of the user flow. These the prototypes built on Figma.
           </p>
           <div className="row justify-content-center">
             <div className="col-md-6"><img src={Homepage.src} alt="Homepage"/></div>

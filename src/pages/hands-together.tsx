@@ -72,6 +72,14 @@ export default function HandsTogether() {
               <br/>Megan Chueh
               <br/>Sienna Gonzalez
             </p>
+            <h2 className="demi">Tools</h2>
+            <p className="small-body">
+              Node.js
+              <br/>MongoDB
+              <br/>Mongoose
+              <br/>Express
+              <br/>React
+            </p>
           </div>
         </section>
 

@@ -43,7 +43,12 @@ export default function InterviewAce() {
             <img src={Demo.src} alt="Project demo" className="no-shadow" />
           </div>
           <div className="col-md-3">
-            <h2 className="demi">Tech Stack</h2>
+            <h2 className="demi">Duration</h2>
+            <p className="small-body">
+              4 weeks
+              <br/>August 2023
+            </p>
+            <h2 className="demi">Tools</h2>
             <p className="small-body">
               <span className="demi">Backend</span>
               <br/>Node.js
@@ -60,6 +65,10 @@ export default function InterviewAce() {
               <br/>shadcn/ui and Radix UI
               <br/>SWR
               <br/>Typescript
+            </p>
+            <p className="small-body">
+              <span className="demi">Design</span>
+              <br/>Figma
             </p>
           </div>
         </section>
