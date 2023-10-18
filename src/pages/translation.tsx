@@ -29,14 +29,14 @@ export default function Translation() {
         <div className={projStyles["title"]}>
           <img className={projStyles["logo"]} src={Logo.src} alt="Google Translate logo"/>
           <h1>Evaluating Google Translate's Effectiveness in Preserving Semantic Content</h1>
-          <h5 className="italic">Updated 6.17.2022</h5>
+          <h5 className="italic">Updated 10.13.2023</h5>
         </div>
 
         <section className="row">
           <div className="col-md-9">
             <h2 className="demi">A Major Research Project</h2>
             <p className="small-body">
-              As part of my work at the <Link href="http://c2.ucdavis.edu/" target="_blank" className="small-body">Computational Communication Lab</Link> at UC Davis (under <Link className="small-body" href="https://enfascination.com/weblog/professional" target="blank_">Prof. Seth Frey</Link>), I took part in a project evaluating the effectiveness of Google Translate. Up to this point, this is the largest research project I've worked on. It was fun thinking about the impact of work on the world, not just the nuances of building out a product. This project was accepted to the International Communication Association 2022 conference, and will later be published as <i>Demonstrating the Preservation of Semantic Content Across Multi-Language Dataset with Machine Translation for Use in English-Trained Tools</i>.
+              As part of my work at the <Link href="http://c2.ucdavis.edu/" target="_blank" className="small-body">Computational Communication Lab</Link> at UC Davis (under <Link className="small-body" href="https://enfascination.com/weblog/professional" target="blank_">Prof. Seth Frey</Link>), I took part in a project evaluating the effectiveness of Google Translate. Up to this point, this is the largest research project I've worked on. It was fun thinking about the impact of work on the world, not just the nuances of building out a product. This project was accepted to the International Communication Association 2022 conference, and will later be published as <i>Machine Translation for Accessible Multi-Language Text Analysis</i>.
             </p>
             <p className="small-body">
               Within the interdisciplinary team, I led the development work. The scripts were done in Python, and involved the application of ML/NLP tools and the use of Google's Translation API.
@@ -45,11 +45,12 @@ export default function Translation() {
           <div className="col-md-3">
             <h2 className="demi">Duration</h2>
             <p className="small-body">
-              Started July 2021
+              12 months
+              July 2021 - June 2022
             </p>
             <h2 className="demi">Team Members</h2>
             <p className="small-body">
-              Edward Chew (Me!)
+              Edward Chew
               <br/>William Weisman
               <br/>Jingying Huang
               <br/>Seth Frey

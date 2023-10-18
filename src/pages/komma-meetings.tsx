@@ -49,11 +49,11 @@ export default function KommaMeetings() {
             <h2 className="demi">Duration</h2>
             <p className="small-body">
               6 Months
-              <br/>Jan 2021 - Jun 2021
+              <br/>Jan - Jun 2021
             </p>
             <h2 className="demi">Team Members</h2>
             <p className="small-body">
-              Edward Chew (Me!)
+              Edward Chew
               <br/>James Junaidi
               <br/>Omid Mogasemi
               <br/> Essam Sleiman

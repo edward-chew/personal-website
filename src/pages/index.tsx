@@ -15,9 +15,10 @@ import HandsTogether from "@/../public/images/Home/PrimaryProjects/HandsTogether
 import Translation from "@/../public/images/Home/PrimaryProjects/Translation.png";
 import CodeLabBrand from "@/../public/images/Home/PrimaryProjects/CodeLabBrand.png";
 // Secondary Projects
-import Reddit from "@/../public/images/Home/SecondaryProjects/Reddit.png";
+import TempleOfMoo from "@/../public/images/Home/SecondaryProjects/TempleOfMoo.png";
 import InterviewAce from "@/../public/images/Home/SecondaryProjects/InterviewAce.png";
 import JAPA from "@/../public/images/Home/SecondaryProjects/JAPA.png";
+import Reddit from "@/../public/images/Home/SecondaryProjects/Reddit.png";
 import KommaInvolvement from "@/../public/images/Home/SecondaryProjects/KommaInvolvement.png";
 // Mini Projects
 import BobaTierList from "@/../public/images/Home/MiniProjects/BobaTierList.png";
@@ -124,11 +125,11 @@ export default function Home() {
         <h1>Some other things I've worked on:</h1>
         <div className={` ${utils["gutter40-row"]} row `}>
           <SecondaryProject
-            image={Reddit}
-            skills="PYTHON WEB SCRAPING"
-            title="Reddit Metadata Scraper"
-            subtitle="Scraped Reddit subreddit metadata over several months using Python, PRAW, and Supervisord"
-            link="/reddit"
+            image={TempleOfMoo}
+            skills="ALTERNATE REALITY GAME"
+            title="Join the Davis Cow Cult"
+            subtitle="Designed a puzzle-based on-campus scavenger hunt"
+            link="/temple-of-moo"
           />
           <SecondaryProject
             image={InterviewAce}
@@ -143,6 +144,13 @@ export default function Home() {
             title="Reimagining Parking"
             subtitle="Redesigning a smart parking mobile app for JAPA Inc."
             link="/japa"
+          />
+          <SecondaryProject
+            image={Reddit}
+            skills="PYTHON WEB SCRAPING"
+            title="Reddit Metadata Scraper"
+            subtitle="Scraped Reddit subreddit metadata over several months using Python, PRAW, and Supervisord"
+            link="/reddit"
           />
           <SecondaryProject
             image={KommaInvolvement}
