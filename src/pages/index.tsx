@@ -40,10 +40,10 @@ export default function Home() {
           content="Edward Chew / Coding and Designing"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://edwardchew.vercel.app/" />
+        <meta property="og:url" content="https://www.edwardchew.me/" />
         <meta
           property="og:image"
-          content="https://edwardchew.vercel.app/images/Home/Edward.jpg"
+          content="https://www.edwardchew.me/images/Home/Edward.jpg"
         />
       </Head>
 

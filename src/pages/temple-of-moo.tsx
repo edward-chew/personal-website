@@ -37,8 +37,8 @@ export default function TempleOfMoo() {
 
         <meta property="og:title" content="Temple of Moo / Edward Chew"/>
         <meta property="og:type" content="website"/>
-        <meta property="og:url" content="https://edwardchew.vercel.app/temple-of-moo"/>
-        <meta property="og:image" content="https://edwardchew.vercel.app/images/Home/SecondaryProjects/TempleOfMoo.png"/>
+        <meta property="og:url" content="https://www.edwardchew.me/temple-of-moo"/>
+        <meta property="og:image" content="https://www.edwardchew.me/images/Home/SecondaryProjects/TempleOfMoo.png"/>
       </Head>
 
       <div className={` ${projStyles["project-page"]} ${styles["translation"]} `}>
@@ -220,7 +220,7 @@ export default function TempleOfMoo() {
               This puzzle was modeled after the iOS app <Link href="https://apps.apple.com/us/app/red-herring/id663596265" target="_blank">Red Herring</Link>, a word puzzle game I played many years ago. In September 2023, NYT Games released their rendition, called <Link href="https://www.nytimes.com/games/connections" target="_blank">Connections</Link>.
             </p>
             <p className="small-body">
-              In this puzzle, you must organize a list of words into three groups of four words each. You’ll be left with a few extra words, there to throw you off. In this variation of the game, the categories are not provided, but a few words are filled in for you to guide you in the right direction. The tricky thing though, is that words with multiple meanings were deliberately chosen. For example, does the word “bat” belong in the animals category or the sports equipment category? There will stil, only ever be one solution to these puzzles, as there will not be enough words to fill in a full category using the “incorrect” definition.
+              In this puzzle, you must organize a list of words into three groups of four words each. You’ll be left with a few extra words, there to throw you off. In this variation of the game, the categories are not provided, but a few words are filled in for you to guide you in the right direction. The tricky thing, though, is that words with multiple meanings were deliberately chosen. For example, does the word “bat” belong in the animals category or the sports equipment category? There will still, only ever be one solution to these puzzles, as there will not be enough words to fill in a full category using the “incorrect” definition.
             </p>
             <p className="small-body">
               The final location is extracted by taking the first letter of the leftover words and unscrambling it into “BioBrew”, the name of the coffee window housed in our Science Laboratory Building. Unfortunately, this coffee window no longer exists.             

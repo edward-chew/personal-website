@@ -17,8 +17,8 @@ export default function InterviewAce() {
 
         <meta property="og:title" content="Interview Ace / Edward Chew" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://edwardchew.vercel.app/interview-ace" />
-        <meta property="og:image" content="https://edwardchew.vercel.app/images/Home/SecondaryProjects/InterviewAce.png" />
+        <meta property="og:url" content="https://www.edwardchew.me/interview-ace" />
+        <meta property="og:image" content="https://www.edwardchew.me/images/Home/SecondaryProjects/InterviewAce.png" />
       </Head>
 
       <div className={` ${projStyles["project-page"]} `}>

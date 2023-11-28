@@ -46,11 +46,11 @@ export default function CodeLab() {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://edwardchew.vercel.app/codelab"
+          content="https://www.edwardchew.me/codelab"
         />
         <meta
           property="og:image"
-          content="https://edwardchew.vercel.app/images/Home/PrimaryProjects/CodeLabCommunity.png"
+          content="https://www.edwardchew.me/images/Home/PrimaryProjects/CodeLabCommunity.png"
         />
       </Head>
 

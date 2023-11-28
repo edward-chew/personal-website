@@ -45,8 +45,8 @@ export default function About() {
 
         <meta property="og:title" content="About / Edward Chew"/>
         <meta property="og:type" content="website"/>
-        <meta property="og:url" content="https://edwardchew.vercel.app/about"/>
-        <meta property="og:image" content="https://edwardchew.vercel.app/images/About/Edward.jpg"/>
+        <meta property="og:url" content="https://www.edwardchew.me/about"/>
+        <meta property="og:image" content="https://www.edwardchew.me/images/About/Edward.jpg"/>
       </Head>
 
       <div className={` ${styles["rellax"]} rellax ${styles["lines1"]} `} ref={rellaxRef}><img src={Curve4.src} alt="Background Curve"/></div>

@@ -19,8 +19,8 @@ export default function HandsTogether() {
 
         <meta property="og:title" content="Hands Together / Edward Chew"/>
         <meta property="og:type" content="website"/>
-        <meta property="og:url" content="https://edwardchew.vercel.app/hands-together"/>
-        <meta property="og:image" content="https://edwardchew.vercel.app/images/Home/PrimaryProjects/HandsTogether.png"/>
+        <meta property="og:url" content="https://www.edwardchew.me/hands-together"/>
+        <meta property="og:image" content="https://www.edwardchew.me/images/Home/PrimaryProjects/HandsTogether.png"/>
       </Head>
 
       <div className={` ${projStyles["project-page"]} ${styles["hands-together"]} `}>

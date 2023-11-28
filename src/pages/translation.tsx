@@ -21,8 +21,8 @@ export default function Translation() {
 
         <meta property="og:title" content="Translation / Edward Chew"/>
         <meta property="og:type" content="website"/>
-        <meta property="og:url" content="https://edwardchew.vercel.app/translation"/>
-        <meta property="og:image" content="https://edwardchew.vercel.app/images/Home/PrimaryProjects/Translation.png"/>
+        <meta property="og:url" content="https://www.edwardchew.me/translation"/>
+        <meta property="og:image" content="https://www.edwardchew.me/images/Home/PrimaryProjects/Translation.png"/>
       </Head>
 
       <div className={` ${projStyles["project-page"]} ${styles["translation"]} `}>

@@ -42,8 +42,8 @@ export default function CodeLabBrand() {
 
         <meta property="og:title" content="CodeLab Brand / Edward Chew"/>
         <meta property="og:type" content="website"/>
-        <meta property="og:url" content="https://edwardchew.vercel.app/codelab-brand"/>
-        <meta property="og:image" content="https://edwardchew.vercel.app/images/Home/PrimaryProjects/CodeLabBrand.png"/>
+        <meta property="og:url" content="https://www.edwardchew.me/codelab-brand"/>
+        <meta property="og:image" content="https://www.edwardchew.me/images/Home/PrimaryProjects/CodeLabBrand.png"/>
       </Head>
 
       <div className={` ${projStyles["project-page"]} ${styles["codelab-brand"]} `}>

@@ -51,8 +51,8 @@ export default function JAPA() {
 
         <meta property="og:title" content="JAPA / Edward Chew"/>
         <meta property="og:type" content="website"/>
-        <meta property="og:url" content="https://edwardchew.vercel.app/japa"/>
-        <meta property="og:image" content="https://edwardchew.vercel.app/images/Home/SecondaryProjects/JAPA.png"/>
+        <meta property="og:url" content="https://www.edwardchew.me/japa"/>
+        <meta property="og:image" content="https://www.edwardchew.me/images/Home/SecondaryProjects/JAPA.png"/>
       </Head>
 
       <div className={` ${projStyles["project-page"]} ${styles["japa"]} `}>

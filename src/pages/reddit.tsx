@@ -17,8 +17,8 @@ export default function Reddit() {
 
         <meta property="og:title" content="Reddit / Edward Chew"/>
         <meta property="og:type" content="website"/>
-        <meta property="og:url" content="https://edwardchew.vercel.app/reddit"/>
-        <meta property="og:image" content="https://edwardchew.vercel.app/images/Home/SecondaryProjects/Reddit.png"/>
+        <meta property="og:url" content="https://www.edwardchew.me/reddit"/>
+        <meta property="og:image" content="https://www.edwardchew.me/images/Home/SecondaryProjects/Reddit.png"/>
       </Head>
 
       <div className={` ${projStyles["project-page"]} ${styles["reddit"]} `}>

@@ -32,8 +32,8 @@ export default function KommaInvolvement() {
 
         <meta property="og:title" content="Komma Involvement / Edward Chew"/>
         <meta property="og:type" content="website"/>
-        <meta property="og:url" content="https://edwardchew.vercel.app/komma-involvement"/>
-        <meta property="og:image" content="https://edwardchew.vercel.app/images/Home/SecondaryProjects/KommaInvolvement.png"/>
+        <meta property="og:url" content="https://www.edwardchew.me/komma-involvement"/>
+        <meta property="og:image" content="https://www.edwardchew.me/images/Home/SecondaryProjects/KommaInvolvement.png"/>
       </Head>
 
       <div className={` ${projStyles["project-page"]} ${styles["komma"]} `}>
