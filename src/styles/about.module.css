@@ -4,6 +4,11 @@
 .about a {
   font-size: 1.5rem;
 }
+.about a:hover {
+  opacity: 0.6;
+  color: var(--black);
+  transition: all 0.5s;
+}
 
 /*
   Summary
@@ -60,7 +65,7 @@
   right: 7%;
   border: var(--red) solid 3px;
   border-radius: 20px;
-  background: linear-gradient(236.03deg, #FFB7A7 15.77%, #FFECBC 80.92%);
+  background: linear-gradient(236.03deg, #ffb7a7 15.77%, #ffecbc 80.92%);
 }
 .snapshots .back-rectangle {
   position: absolute;
@@ -120,10 +125,10 @@
   width: 100%;
 }
 .lines1 {
-  top: 1000px;
+  top: 700px;
 }
 .lines2 {
-  top: 3000px;
+  top: 2500px;
 }
 @media (max-width: 720px) {
   .rellax {

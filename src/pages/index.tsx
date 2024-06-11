@@ -53,8 +53,8 @@ export default function Home() {
             <div className={` ${styles["left"]} col-md-7 `}>
               <h1 className="bold">Hello there!</h1>
               <h2>
-                I’m Edward, a recent UC Davis grad based in the San Francisco
-                Bay Area.
+                I’m Edward, a software engineer based in the San Francisco Bay
+                Area.
               </h2>
               <p className="mobile">
                 Hey, I see you're on a mobile device. The mobile version of this
@@ -196,6 +196,10 @@ export default function Home() {
       <section className={styles["experience"]}>
         <h1>My experience:</h1>
         <p className={styles["position"]}>
+          <b className="demi">Distyl</b> / Software Engineer
+        </p>
+        <p className={styles["years"]}>Jun 2024 - Present</p>
+        <p className={styles["position"]}>
           <b className="demi">CodeLab</b> / Co-Founder, President
         </p>
         <p className={styles["years"]}>Oct 2020 - Jun 2023</p>
@@ -216,14 +220,6 @@ export default function Home() {
           <b className="demi">Komma</b> / CPO, Software Engineer
         </p>
         <p className={styles["years"]}>Sep 2020 - Jun 2021</p>
-        <p className={styles["position"]}>
-          <b className="demi">Hands Together</b> / Software Engineer
-        </p>
-        <p className={styles["years"]}>Jan 2021 - May 2021</p>
-        <p className={styles["position"]}>
-          <b className="demi">Design Interactive</b> / Design Associate
-        </p>
-        <p className={styles["years"]}>Apr 2020 - May 2020</p>
         <Link
           className="link"
           href="https://drive.google.com/file/d/1nTexryaBg258VKtiM36aMotkwGOm-t99/view?usp=sharing"
@@ -237,12 +233,15 @@ export default function Home() {
       <footer className={styles["footer"]}>
         <div className={styles["gradient-box"]}>
           <h1>Let's chat!</h1>
+          <p>Feel free to shoot me a message to get in touch!</p>
           <p>
-            Feel free to shoot me a message to get in touch!
-          </p>
-          <p>
-            <Link className="link" href='&#109;ailt&#111;&#58;%65dward%63%68ew8&#64;g%6&#68;ai%6&#67;&#46;%&#54;3%&#54;&#70;&#109;'>
-              <span>&#101;dwa&#114;dc&#104;ew8&#64;gma&#105;l&#46;c&#111;&#109;</span>
+            <Link
+              className="link"
+              href="&#109;ailt&#111;&#58;%65dward%63%68ew8&#64;g%6&#68;ai%6&#67;&#46;%&#54;3%&#54;&#70;&#109;"
+            >
+              <span>
+                &#101;dwa&#114;dc&#104;ew8&#64;gma&#105;l&#46;c&#111;&#109;
+              </span>
             </Link>
             <br />
             <Link
